@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
     <title>DEQ-EPUFBA</title>
 </head>
@@ -19,7 +20,7 @@
             <li> <a href="#graduacao" onclick="toggleMenu();"> Graduação </a> </li>
             <li> <a href="#posgrad" onclick="toggleMenu();"> Pós-Graduação </a> </li>
             <li> <a href="#extensao" onclick="toggleMenu();"> Extensão </a> </li>
-            <li> <a href="#"onclick="toggleMenu();"> Pesquisa </a> </li>
+            <li> <a href="#docentes"onclick="toggleMenu();"> Docentes </a> </li>
             <li> <a href="#contato" onclick="toggleMenu();"> Contato </a> </li>
         </ul>
     </header>
@@ -32,7 +33,7 @@
             <a href="#sobre" class="btn">Sobre o DEQ</a>
         </div>
         <div class="foto">
-            <img src="./assets/3x4MFJ.jpg" alt="mfj">
+            <img src="./assets/docentes/MFJ01.png" alt="mfj">
         </div>
     </section>  
 
@@ -68,39 +69,25 @@
 
         <div class="heading white">
             <h2>Graduação</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>O Departamento de Engenharia Química disponibiliza disciplinas da grade curricular da maioria
+                dos cursos de Engenharia disponíveis na Escola Politécnica da UFBA. Mas, os cursos de Engenharia Química
+                e Engenharia de Controle e Automação possuem o núcle específico da grade curricular disponibilizada 
+                pelo DEQ.
+            </p>
         </div>
         <div class="content">
             <div class="graduacaoBX">
                 <img src="./assets/icon1.png" alt="webdesign">
-                <h2>Web Design</h2>
+                <h2>Engenharia Química</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="graduacaoBX">
                 <img src="./assets/icon2.png" alt="webdevelopment">
-                <h2>Projetos WEB</h2>
+                <h2>Engenharia de Controle e Automação</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="graduacaoBX">
-                <img src="./assets/icon3.png" alt="adroidapp">
-                <h2>APP Android</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="graduacaoBX">
-                <img src="./assets/icon4.png" alt="fotografia">
-                <h2>Fotografia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="graduacaoBX">
-                <img src="./assets/icon5.png" alt="textwriting">
-                <h2>Produção de Textos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="graduacaoBX">
-                <img src="./assets/icon6.png" alt="videoediting">
-                <h2>Edição de Vídeo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+           
+            
         </div>
 
     </section>
@@ -163,6 +150,105 @@
 
     </section>
 
+    <section class="docentes" id="docentes">
+
+        <div class="heading">
+            <h2>Docentes</h2>
+            <p> Atualmente o DEQ conta com um total de 26 docentes nas mais diversas áres de conhecimento.
+                Para mais informações selecione um docente abaixo</p>
+        </div> 
+
+        <div class="container">
+
+            <div class="card">
+    
+                <div class="imgBx">
+                    <img src="./assets/docentes/Cristiano.jpg" alt="Cristiano">
+                </div>
+                
+                <div class="content">
+                    <h2>Cristiano Hora</h2>
+                    <p>Prof. Associado IV, D.E.</p>
+                    <a href="#" class="btn"> <img src="lattes.jpg" alt="lattes"></a>
+                </div>
+    
+            </div>
+    
+            <div class="card">
+    
+                <div class="imgBx">
+                    <img src="./assets/docentes/Ednildo.jpg" alt="Ednildo">
+                </div>
+    
+                <div class="content">
+                    <h2>Ednildo Torres</h2>
+                    <p>Prof. Titular, D.E.</p>
+                    <a href="#" class="btn"> <img src="lattes.jpg" alt="lattes"></a>
+                </div>
+    
+            </div>
+    
+            <div class="card">
+    
+                <div class="imgBx">
+                    <img src="./assets/docentes/MFJ01.png" alt="Marcos Fábio">
+                </div>
+    
+                <div class="content">
+                    <h2>Marcos Fábio</h2>
+                    <p>Prof. Assistente I, D.E.</p>
+                    <a href="#" class="btn"> <img src="lattes.jpg" alt="lattes"></a>
+                </div>
+    
+            </div>
+    
+            <div class="card">
+    
+                <div class="imgBx">
+                    <img src="./assets/docentes/Raony.jpg" alt="Raony">
+                </div>
+    
+                <div class="content">
+                    <h2>Raony Maia</h2>
+                    <p>Prof. Assistente II, D.E.</p>
+                    <a href="#" class="btn"> <img src="lattes.jpg" alt="lattes"></a>
+                </div>
+    
+            </div>
+    
+            <div class="card">
+    
+                <div class="imgBx">
+                    <img src="./assets/docentes/Yuri.jpg" alt="Yuri">
+                </div>
+    
+                <div class="content">
+                    <h2>Yuri Guerrieri</h2>
+                    <p>Prof. Assistente I, D.E.</p>
+                    <a href="#" class="btn"> <img src="lattes.jpg" alt="lattes"></a>
+                </div>
+    
+            </div>
+    
+            <div class="card">
+    
+                <div class="imgBx">
+                    <img src="./assets/docentes/Elaine.jpg" alt="Elaine">
+                </div>
+    
+                <div class="content">
+                    <h2>Elaine. C. Albuquerque</h2>
+                    <p>Prof. Adjunto IV, D.E.</p>
+                    <a href="#" class="btn"> <img src="lattes.jpg" alt="lattes"></a>
+                </div>
+    
+            </div>       
+    
+        </div>
+
+    </section>
+
+
     <section class="contato" id="contato">
 
         <div class="heading white">
@@ -224,11 +310,13 @@
 
     </section>
 
+
+
     <div class="copyright">
         <p>MFJ @ 2020. Todos os direitos reservados. </p>
     </div>
 
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
